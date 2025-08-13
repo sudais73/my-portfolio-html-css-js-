@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sude dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./image/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <span class="logo-text">&lt;Sude/&gt;</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                    <a href="#skills" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects" class="nav-link">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-mobile" id="mobileNav">
+            <div class="nav-mobile-content">
+                <a href="#home" class="nav-mobile-link">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-mobile-link">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#skills" class="nav-mobile-link">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#projects" class="nav-mobile-link">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#contact" class="nav-mobile-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Background Effects -->
+    <div class="background-effects">
+        <div class="floating-symbols"></div>
+        <div class="code-snippets"></div>
+        <div class="mouse-particles"></div>
+        <div class="grid-pattern"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">&lt;Sudais Aliyi/&gt;</h1>
+                    <p class="hero-subtitle">Full Stack Web Developer & Designer</p>
+
+                <div class="terminal">
+                    
+                    
+                    <div class="terminal-body">
+                        <div class="terminal-output">
+                            <div class="terminal-line" id="welcomeLine">
+                                <span id="typedText"></span>
+                                <span class="cursor" id="cursor">|</span>
+                            </div>
+                            <div id="commandHistory"></div>
+                        </div>
+                        
+                       <h1 target="_blank" ><a target="_blank" class="terminal-line" href="./image/sudais (3).pdf" download >My Resume</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">&lt;About /&gt;</h2>
+                
+                <div class="about-grid">
+                    <!-- Personal Info -->
+                    <div class="about-personal">
+                        <div class="code-block">
+                            <h3 class="code-title">const developer = {</h3>
+                            <div class="code-content">
+                                <div class="code-line">
+                                    <span class="code-key">name:</span>
+                                    <span class="code-value">"Sudais Aliyi"</span>,
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-key">role:</span>
+                                    <span class="code-value">"Full Stack Web Developer"</span>,
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-key">location:</span>
+                                    <span class="code-value">"Hawassa, Ethiopia"</span>
+                                </div>
+                        
+            
+                            </div>
+                            <h3 class="code-title">}</h3>
+                        </div>
+
+                        <!-- Achievements -->
+                        <div class="achievements">
+                            <h3 class="achievements-title">
+                                <i class="fas fa-award"></i>
+                                Achievements
+                            </h3>
+                            <div class="achievements-list">
+                                <div class="achievement-item">Programming Fundamentals Certification – Udacity</div>
+                                <div class="achievement-item"> Literacy Skills Certification – Dereja.com </div>
+                                <div class="achievement-item"> Job Readiness Certification – Afriwork </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="about-education">
+                        <h3 class="education-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            Education
+                        </h3>
+                        
+                        <div class="education-item">
+                            <div class="education-content">
+                                <div class="education-logo">
+                                    <img src="./image/image.png" alt="University Logo" class="education-logo-image">
+                                </div>
+                                <div class="education-details">
+                                    <h4 class="education-degree">Bachelor Degree of Economics</h4>
+                                    <p class="education-university">Hawassa University</p>
+                                    <div class="education-meta">
+                                        <div class="education-location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Hawassa, Ethiopia
+                                        </div>
+                                        <div class="education-period">
+                                            <i class="fas fa-calendar"></i>
+                                            2023 - 2026
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="education-item">
+                            <div class="education-content">
+                                <div class="education-logo">
+                                    <img src="./image/free.jpg" alt="Coding Bootcamp Logo" class="education-logo-image">
+                                </div>
+                                <div class="education-details">
+                                    <h4 class="education-degree">Full Stack Web Development</h4>
+                                    <p class="education-university">Udacity and Evangadi Academy</p>
+                                    <div class="education-meta">
+                                        <div class="education-location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Online
+                                        </div>
+                                        <div class="education-period">
+                                            <i class="fas fa-calendar"></i>
+                                            2024-present
+                                        </div>
+                                    </div>
+                                    <p class="education-description">Intensive 1- Year+ program covering modern web technologies.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">&lt;Skills /&gt;</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <div class="skill-icon"> <i class="fas fa-code"></i></div>
+                            <h3 class="skill-title">Frontend</h3>
+                            <div class="skill-line skill-line-cyan"></div>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">Html/Css</div>
+                            <div class="skill-item">Javascript</div>
+                            <div class="skill-item">React</div>
+                            <div class="skill-item">Tailwind CSS</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <div class="skill-icon"> <i class="fas fa-server"></i></div>
+                            <h3 class="skill-title">Backend</h3>
+                            <div class="skill-line skill-line-purple"></div>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">Node.js</div>
+                            <div class="skill-item">Express.js</div>
+                            <div class="skill-item">Restfull Api</div>
+                            
+                           
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <div class="skill-icon"> <i class="fas fa-database"></i></div>
+                            <h3 class="skill-title">Database</h3>
+                            <div class="skill-line skill-line-green"></div>
+                        </div>
+                        <div class="skill-items">
+                           
+                            <div class="skill-item">MongoDB</div>
+                            <div class="skill-item">Mysql</div>
+                            <div class="skill-item">Firebase</div>
+                            <div class="skill-item">postgresql</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <div class="skill-icon"> <i class="fas fa-paint-brush"></i></div>
+                            <h3 class="skill-title">Tools</h3>
+                            <div class="skill-line skill-line-orange"></div>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">Git</div>
+                            <div class="skill-item">VS Code</div>
+                            <div class="skill-item">Figma</div>
+                            <div class="skill-item">Postman</div>
+                         
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Floating Code Elements -->
+                <div class="floating-code">
+                    <div class="floating-element">{ }</div>
+                    <div class="floating-element">&lt;/&gt;</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">&lt;Projects /&gt;</h2>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projectsGrid">
+                    <div class="project-card" data-category="react">
+                        <div class="project-image">
+                            <img src="./image/image1.png" alt="E-Commerce Platform">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Amazon clone</h3>
+                            <p class="project-description">Full-stack e-commerce solution with React, Node.js, and Firebase</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js/Express </span>
+                                <span class="tech-tag"> Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    
+                                </a>
+                                <a target="_blank"  href="https://am-full-stack-ecom.vercel.app" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="python">
+                        <div class="project-image">
+                            <img src="./image/img2.jpg" alt="AI Chat Application">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">AI SAAS App</h3>
+                            <p class="project-description"> Ai saas app which can generate image, article, remove image background</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js/Express</span>
+                                <span class="tech-tag">Neon</span>
+                            </div>
+                            <div class="project-links">
+                                <a target="_blank"href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a target="_blank" href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="docker">
+                        <div class="project-image">
+                            <img src="./image/image2.png" alt="DevOps Dashboard">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Full-stack food delivery-app</h3>
+                            <p class="project-description">full stack food delivery app with all features including admin dashboard</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js/Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a target="_blank" href="https://full-stack-food-delivery-web.vercel.app" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                       <div class="project-card" data-category="docker">
+                        <div class="project-image">
+                            <img src="./image/image3.png" alt="DevOps Dashboard">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Full-stack food delivery-app</h3>
+                            <p class="project-description">full stack food delivery app with all features including admin dashboard</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js/Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a target="_blank" href="https://full-stack-food-delivery-app-k12t.vercel.app" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                       <div class="project-card" data-category="docker">
+                        <div class="project-image">
+                            <img src="./image/image4.png" alt="Netflix-clone">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Full-stack Netflix-clone</h3>
+                            <p class="project-description">Created a responsive clone of the Netflix streaming service, allowing users
+to browse a library of movies
+● Features: Implemented robust user authentication using Firebase</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js/Express</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a target="_blank" href="https://movie-full-satck-688fd2.netlify.app" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">contact</h2>
+                
+                <div class="contact-container">
+                    <!-- Contact Info Side -->
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-header">
+                                <div class="contact-avatar">
+                                    <img src="image/pic.png" alt="Developer Avatar" class="avatar-image">
+                                </div>
+                                <div class="contact-details">
+                                    <h3 class="contact-name">Sudais Aliyi</h3>
+                                    <p class="contact-role">Full Stack Developer(Mern)</p>
+                                    <div class="contact-status">
+                                
+                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-methods">
+                                <div class="contact-method">
+                                    <div class="method-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="method-info">
+                                        <span class="method-label">Email</span>
+                                        <a href="mailto:sudaisaliyi@gmail.com" class="method-value">sudaisaliyi@gmail.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-method">
+                                    <div class="method-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="method-info">
+                                        <span class="method-label">Phone</span>
+                                        <a href="tel:+1234567890" class="method-value">+251914866805</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-method">
+                                    <div class="method-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="method-info">
+                                        <span class="method-label">Location</span>
+                                        <span class="method-value">Hawassa, Ethiopia</span>
+                                    </div>
+                                </div>
+
+                            
+                            </div>
+
+                            <div class="social-connect">
+                                <h4 class="social-title">Let's Connect</h4>
+                                <div class="social-links">
+                                    <a href="https://github.com" class="social-btn github" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                    <a href="https://linkedin.com" class="social-btn linkedin" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                        <span>LinkedIn</span>
+                                    </a>
+                                    <a href="https://twitter.com" class="social-btn twitter" target="_blank">
+                                        <i class="fab fa-telegram"></i>
+                                        <span>Telegram</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="collaboration-info">
+                                <h4 class="collab-title">
+                                    <i class="fas fa-handshake"></i>
+                                    Open for Collaboration
+                                </h4>
+                                <div class="collab-items">
+                                    <div class="collab-item">
+                                        <i class="fas fa-laptop-code"></i>
+                                        <span>Web Development</span>
+                                    </div>
+                                    <div class="collab-item">
+                                        <i class="fas fa-design"></i>
+                                        <span>Web Design</span>
+                                    </div>
+                                    
+                                    <div class="collab-item">
+                                        <i class="fas fa-users"></i>
+                                        <span>Team Projects</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Side -->
+                    <div class="contact-form-container">
+                        <div class="api-headers">
+                            <div class="api-header">Content-Type: application/json</div>
+                            <div class="api-header">Accept: application/json</div>
+                        </div>
+
+                        <form  action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
+                            <input type="hidden" name="access_key" value = "bc0a1cbb-2466-4e1c-ac42-f83c2ef99c7b">
+                            <div class="json-bracket">{</div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">"name":</label>
+                                <input type="text" name="name" class="form-input" placeholder='"Your Name"' required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">"email":</label>
+                                <input type="email" name="email" class="form-input" placeholder='"your.email@domain.com"' required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">"subject":</label>
+                                <input type="text" name="subject" class="form-input" placeholder='"Project Discussion"' required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">"message":</label>
+                                <textarea name="message" class="form-textarea" placeholder='"Your message here..."' required></textarea>
+                            </div>
+                                 <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                            <div class="json-bracket">}</div>
+
+                            <button type="submit" class="submit-btn" id="submitBtn">
+                                <i class="fas fa-paper-plane"></i>
+                                <span id="submitText" type="submit">Send Request</span>
+                            </button>
+                        </form>
+
+                        <div class="response-message" id="responseMessage"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+            
+                        <span class="logo-text">&lt;sude/&gt;</span>
+                    </div>
+                    <p class="footer-tagline">Crafting digital experiences with code and creativity</p>
+                </div>
+
+                <!-- Social Links -->
+                <div class="footer-social">
+                    <a href="https://github.com" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" class="social-link" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="mailto:sudaisaliyi@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    
+                    <p class="copyright-small">© 2025 All rights reserved.</p>
+                </div>
+            </div>
+
+             <style>
+                .footer-bottom {
+  padding: 1.5rem 0;
+  text-align: center;
+  background: rgba(17, 24, 39, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-code {
+  color: #d1d5db;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+.footer-code a {
+  color: #a855f7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-code a:hover {
+  color: #c084fc;
+  text-decoration: underline;
+}
+             </style>
+        </div>
+    </footer>
+
+
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
