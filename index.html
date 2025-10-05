@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sude dev</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./image/logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -86,37 +89,62 @@
     </div>
 
     <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero-section">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h1 class="hero-title">&lt;Sudais Aliyi/&gt;</h1>
-                    <p class="hero-subtitle">Full Stack Web Developer & Designer</p>
+ <main>
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
 
-                <div class="terminal">
-                    
-                    
-                    <div class="terminal-body">
-                        <div class="terminal-output">
-                            <div class="terminal-line" id="welcomeLine">
-                                <span id="typedText"></span>
-                                <span class="cursor" id="cursor">|</span>
-                            </div>
-                            <div id="commandHistory"></div>
-                        </div>
-                        
-                       <h1 target="_blank" ><a target="_blank" class="terminal-line" href="./image/sudais (3).pdf" download >My Resume</a></h1>
-                    </div>
-                </div>
+        <!-- 👇 Visible only on small screens -->
+        <div class="hero-image-mobile">
+          <img src="./image/me.png" alt="Sudais Aliyi">
+        </div>
+
+        <h1 class="hero-title">&lt;Sudais Aliyi/&gt;</h1>
+        <p class="hero-subtitle">Full Stack Web Developer & Designer</p>
+
+        <!-- ✨ NEW LINE: short impactful intro -->
+        <p class="hero-tagline">
+          Building fast, modern, and user-focused web apps with MERN & Next.js 👩‍💻
+        </p>
+
+        <div class="terminal">
+          <div class="terminal-body">
+            <div class="terminal-output">
+              <div class="terminal-line" id="welcomeLine">
+                <span id="typedText"></span>
+                <span class="cursor" id="cursor">|</span>
+              </div>
+              <div id="commandHistory"></div>
             </div>
-        </section>
+
+            <!-- 🧠 NEW LINE: call-to-action for visitors -->
+            <div class="terminal-actions">
+              <a target="_blank" href="./image/sudais (3).pdf" class="terminal-line resume-link" download>
+                📄 My Resume
+              </a>
+              <a href="#projects" class="terminal-line projects-link">
+                🚀 View My Projects
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 💡 Optional small tagline below -->
+        <p class="hero-small-text">
+          Economics student & tech enthusiast — merging business insight with full-stack innovation.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
 
         <!-- About Section -->
         <section id="about" class="about-section">
             <div class="container">
                 <h2 class="section-title">&lt;About /&gt;</h2>
-                
+
                 <div class="about-grid">
                     <!-- Personal Info -->
                     <div class="about-personal">
@@ -135,8 +163,8 @@
                                     <span class="code-key">location:</span>
                                     <span class="code-value">"Hawassa, Ethiopia"</span>
                                 </div>
-                        
-            
+
+
                             </div>
                             <h3 class="code-title">}</h3>
                         </div>
@@ -149,11 +177,13 @@
                             </h3>
                             <div class="achievements-list">
                                 <div class="achievement-item">Programming Fundamentals Certification – Udacity</div>
-                                <div class="achievement-item"> Literacy Skills Certification – Dereja.com </div>
-                                <div class="achievement-item"> Job Readiness Certification – Afriwork </div>
-                               
+                                <div class="achievement-item">Literacy Skills Certification – Dereja.com</div>
+                                <div class="achievement-item">Job Readiness Certification – Afriwork</div>
+                                <div class="achievement-item">1-Month Internship – Commercial Bank of Ethiopia (CBE),
+                                    Abaro Branch</div>
                             </div>
                         </div>
+
                     </div>
 
                     <!-- Education -->
@@ -162,11 +192,12 @@
                             <i class="fas fa-graduation-cap"></i>
                             Education
                         </h3>
-                        
+
                         <div class="education-item">
                             <div class="education-content">
                                 <div class="education-logo">
-                                    <img src="./image/image.png" alt="University Logo" class="education-logo-image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0vHrkKbOUbnCNUnGtzbzn4yPsGka7qTL7ZA&s"
+                                        alt="University Logo" class="education-logo-image">
                                 </div>
                                 <div class="education-details">
                                     <h4 class="education-degree">Bachelor Degree of Economics</h4>
@@ -203,7 +234,8 @@
                                             2024-present
                                         </div>
                                     </div>
-                                    <p class="education-description">Intensive 1- Year+ program covering modern web technologies.</p>
+                                    <p class="education-description">Intensive 1- Year+ program covering modern web
+                                        technologies.</p>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +248,7 @@
         <section id="skills" class="skills-section">
             <div class="container">
                 <h2 class="section-title">&lt;Skills /&gt;</h2>
-                
+
                 <div class="skills-grid">
                     <div class="skill-category">
                         <div class="skill-header">
@@ -226,8 +258,8 @@
                         </div>
                         <div class="skill-items">
                             <div class="skill-item">Html/Css</div>
-                            <div class="skill-item">Javascript</div>
-                            <div class="skill-item">React</div>
+                            <div class="skill-item">Javascript/TypeScript</div>
+                            <div class="skill-item">NextJs/React</div>
                             <div class="skill-item">Tailwind CSS</div>
                         </div>
                     </div>
@@ -240,10 +272,11 @@
                         </div>
                         <div class="skill-items">
                             <div class="skill-item">Node.js</div>
+                            <div class="skill-item">Next.js</div>
                             <div class="skill-item">Express.js</div>
                             <div class="skill-item">Restfull Api</div>
-                            
-                           
+
+
                         </div>
                     </div>
 
@@ -254,7 +287,7 @@
                             <div class="skill-line skill-line-green"></div>
                         </div>
                         <div class="skill-items">
-                           
+
                             <div class="skill-item">MongoDB</div>
                             <div class="skill-item">Mysql</div>
                             <div class="skill-item">Firebase</div>
@@ -271,9 +304,8 @@
                         <div class="skill-items">
                             <div class="skill-item">Git</div>
                             <div class="skill-item">VS Code</div>
-                            <div class="skill-item">Figma</div>
                             <div class="skill-item">Postman</div>
-                         
+
                         </div>
                     </div>
                 </div>
@@ -287,143 +319,120 @@
         </section>
 
         <!-- Projects Section -->
+        <!-- Projects Section -->
         <section id="projects" class="projects-section">
             <div class="container">
                 <h2 class="section-title">&lt;Projects /&gt;</h2>
 
                 <!-- Projects Grid -->
                 <div class="projects-grid" id="projectsGrid">
-                    <div class="project-card" data-category="react">
+
+                    <!-- Hotel Booking -->
+                    <div class="project-card" data-category="mern">
                         <div class="project-image">
-                            <img src="./image/image1.png" alt="E-Commerce Platform">
+                            <img src="./image/hot.png" alt="Hotel Booking MERN">
                             <div class="project-overlay"></div>
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">E-Commerce Amazon clone</h3>
-                            <p class="project-description">Full-stack e-commerce solution with React, Node.js, and Firebase</p>
+                            <h3 class="project-title">Hotel Booking (MERN)</h3>
+                            <p class="project-description">Full-stack hotel booking application with real-time
+                                availability, room management, and payment integration.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">React</span>
-                                <span class="tech-tag">Node.js/Express </span>
-                                <span class="tech-tag"> Firebase</span>
+                                <span class="tech-tag">Node.js/Express</span>
+                                <span class="tech-tag">MongoDB</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    
+                                <a href="https://github.com/sudais73/full-stack-hotel-booking" class="project-link">
+                                    <i class="fab fa-github"></i> Code
                                 </a>
-                                <a target="_blank"  href="https://am-full-stack-ecom.vercel.app" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Demo
+                                <a target="_blank" href="https://full-stack-hotel-booking-ten.vercel.app"
+                                    class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="project-card" data-category="python">
+                    <!-- Amazon Clone -->
+                    <div class="project-card" data-category="mern">
                         <div class="project-image">
-                            <img src="./image/img2.jpg" alt="AI Chat Application">
+                            <img src="./image/am.png" alt="Amazon Clone MERN">
                             <div class="project-overlay"></div>
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">AI SAAS App</h3>
-                            <p class="project-description"> Ai saas app which can generate image, article, remove image background</p>
+                            <h3 class="project-title">Amazon Clone (MERN)</h3>
+                            <p class="project-description">E-commerce platform replicating Amazon features including
+                                product listing, cart, and checkout functionality.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">React</span>
                                 <span class="tech-tag">Node.js/Express</span>
-                                <span class="tech-tag">Neon</span>
+                                <span class="tech-tag">MongoDB</span>
                             </div>
                             <div class="project-links">
-                                <a target="_blank"href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    Code
+                                <a href="https://github.com/sudais73/frontend-a" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a target="_blank" href="https://am-full-stack-ecom.vercel.app" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Doctor Booking -->
+                    <div class="project-card" data-category="nextjs">
+                        <div class="project-image">
+                            <img src="./image/doc.png" alt="Doctor Booking Next.js">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Doctor Booking (Next.js)</h3>
+                            <p class="project-description">Next.js booking application for scheduling doctor
+                                appointments with dynamic calendar and notifications.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Node.js/Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> Code
                                 </a>
                                 <a target="_blank" href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Demo
+                                    <i class="fas fa-external-link-alt"></i> Demo
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="project-card" data-category="docker">
+                    <!-- E-Commerce -->
+                    <div class="project-card" data-category="nextjs">
                         <div class="project-image">
-                            <img src="./image/image2.png" alt="DevOps Dashboard">
+                            <img src="./image/eco.png" alt="E-Commerce Next.js">
                             <div class="project-overlay"></div>
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">Full-stack food delivery-app</h3>
-                            <p class="project-description">full stack food delivery app with all features including admin dashboard</p>
+                            <h3 class="project-title">E-Commerce (Next.js)</h3>
+                            <p class="project-description">Modern e-commerce platform built with Next.js and Firebase
+                                featuring product management and secure checkout.</p>
                             <div class="project-tech">
-                                <span class="tech-tag">React</span>
-                                <span class="tech-tag">Node.js/Express</span>
-                                <span class="tech-tag">MongoDB</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    Code
-                                </a>
-                                <a target="_blank" href="https://full-stack-food-delivery-web.vercel.app" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Demo
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                       <div class="project-card" data-category="docker">
-                        <div class="project-image">
-                            <img src="./image/image3.png" alt="DevOps Dashboard">
-                            <div class="project-overlay"></div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Full-stack food delivery-app</h3>
-                            <p class="project-description">full stack food delivery app with all features including admin dashboard</p>
-                            <div class="project-tech">
-                                <span class="tech-tag">React</span>
-                                <span class="tech-tag">Node.js/Express</span>
-                                <span class="tech-tag">MongoDB</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    Code
-                                </a>
-                                <a target="_blank" href="https://full-stack-food-delivery-app-k12t.vercel.app" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Demo
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                       <div class="project-card" data-category="docker">
-                        <div class="project-image">
-                            <img src="./image/image4.png" alt="Netflix-clone">
-                            <div class="project-overlay"></div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Full-stack Netflix-clone</h3>
-                            <p class="project-description">Created a responsive clone of the Netflix streaming service, allowing users
-to browse a library of movies
-● Features: Implemented robust user authentication using Firebase</p>
-                            <div class="project-tech">
-                                <span class="tech-tag">React</span>
-                                <span class="tech-tag">Node.js/Express</span>
+                                <span class="tech-tag">Next.js</span>
                                 <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind CSS</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    Code
+                                <a href="https://github.com/sudais73/Nextjs-eCommerce" class="project-link">
+                                    <i class="fab fa-github"></i> Code
                                 </a>
-                                <a target="_blank" href="https://movie-full-satck-688fd2.netlify.app" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Demo
+                                <a target="_blank" href="https://sude-devfull-stacknextjs-e-commerce.vercel.app"
+                                    class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
                                 </a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -432,21 +441,21 @@ to browse a library of movies
         <section id="contact" class="contact-section">
             <div class="container">
                 <h2 class="section-title">contact</h2>
-                
+
                 <div class="contact-container">
                     <!-- Contact Info Side -->
                     <div class="contact-info">
                         <div class="contact-card">
                             <div class="contact-header">
                                 <div class="contact-avatar">
-                                    <img src="image/pic.png" alt="Developer Avatar" class="avatar-image">
+                                    <img src="image/me.png" alt="Developer Avatar" class="avatar-image">
                                 </div>
                                 <div class="contact-details">
                                     <h3 class="contact-name">Sudais Aliyi</h3>
-                                    <p class="contact-role">Full Stack Developer(Mern)</p>
+                                    <p class="contact-role">Full Stack NextJs Developer&(Mern) </p>
                                     <div class="contact-status">
-                                
-                        
+
+
                                     </div>
                                 </div>
                             </div>
@@ -458,7 +467,8 @@ to browse a library of movies
                                     </div>
                                     <div class="method-info">
                                         <span class="method-label">Email</span>
-                                        <a href="mailto:sudaisaliyi@gmail.com" class="method-value">sudaisaliyi@gmail.com</a>
+                                        <a href="mailto:sudaisaliyi@gmail.com"
+                                            class="method-value">sudaisaliyi@gmail.com</a>
                                     </div>
                                 </div>
 
@@ -482,48 +492,54 @@ to browse a library of movies
                                     </div>
                                 </div>
 
-                            
+
                             </div>
 
                             <div class="social-connect">
                                 <h4 class="social-title">Let's Connect</h4>
                                 <div class="social-links">
-                                    <a href="https://github.com" class="social-btn github" target="_blank">
+                                    <a href="https://github.com/sudais73" class="social-btn github" target="_blank">
                                         <i class="fab fa-github"></i>
                                         <span>GitHub</span>
                                     </a>
-                                    <a href="https://linkedin.com" class="social-btn linkedin" target="_blank">
+                                    <a href="https://www.linkedin.com/in/sudais-aliyi-9b6b14333"
+                                        class="social-btn linkedin" target="_blank">
                                         <i class="fab fa-linkedin"></i>
                                         <span>LinkedIn</span>
                                     </a>
-                                    <a href="https://twitter.com" class="social-btn twitter" target="_blank">
+                                    <a href="https://t.me/sudaisaliyi" class="social-btn twitter" target="_blank">
                                         <i class="fab fa-telegram"></i>
                                         <span>Telegram</span>
                                     </a>
                                 </div>
                             </div>
 
-                            <div class="collaboration-info">
-                                <h4 class="collab-title">
-                                    <i class="fas fa-handshake"></i>
-                                    Open for Collaboration
-                                </h4>
-                                <div class="collab-items">
-                                    <div class="collab-item">
-                                        <i class="fas fa-laptop-code"></i>
-                                        <span>Web Development</span>
-                                    </div>
-                                    <div class="collab-item">
-                                        <i class="fas fa-design"></i>
-                                        <span>Web Design</span>
-                                    </div>
-                                    
-                                    <div class="collab-item">
-                                        <i class="fas fa-users"></i>
-                                        <span>Team Projects</span>
-                                    </div>
-                                </div>
-                            </div>
+                           <div class="collaboration-info">
+    <h4 class="collab-title">
+        <i class="fas fa-handshake"></i>
+        Open for Collaboration
+    </h4>
+    <div class="collab-items">
+        <div class="collab-item">
+            <i class="fas fa-laptop-code"></i>
+            <span>Web Development</span>
+        </div>
+        <div class="collab-item">
+            <i class="fas fa-paint-brush"></i>
+            <span>Web Design</span>
+        </div>
+        <div class="collab-item">
+            <i class="fas fa-users"></i>
+            <span>Team Projects</span>
+        </div>
+
+        <div class="collab-item">
+            <i class="fas fa-lightbulb"></i>
+            <span>Bridging Business & Technology</span>
+        </div>
+    </div>
+</div>
+
                         </div>
                     </div>
 
@@ -534,41 +550,60 @@ to browse a library of movies
                             <div class="api-header">Accept: application/json</div>
                         </div>
 
-                        <form  action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
-                            <input type="hidden" name="access_key" value = "bc0a1cbb-2466-4e1c-ac42-f83c2ef99c7b">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form"
+                            id="contactForm">
+                            <!-- Web3Forms Access Key -->
+                            <input type="hidden" name="access_key" value="7693f507-2877-42fe-8f6b-86672d594baf">
+
+                            <!-- JSON-style opening bracket -->
                             <div class="json-bracket">{</div>
-                            
+
+                            <!-- Name Field -->
                             <div class="form-group">
                                 <label class="form-label">"name":</label>
                                 <input type="text" name="name" class="form-input" placeholder='"Your Name"' required>
                             </div>
 
+                            <!-- Email Field -->
                             <div class="form-group">
                                 <label class="form-label">"email":</label>
-                                <input type="email" name="email" class="form-input" placeholder='"your.email@domain.com"' required>
+                                <input type="email" name="email" class="form-input"
+                                    placeholder='"your.email@domain.com"' required>
                             </div>
 
+                            <!-- Subject Field -->
                             <div class="form-group">
                                 <label class="form-label">"subject":</label>
-                                <input type="text" name="subject" class="form-input" placeholder='"Project Discussion"' required>
+                                <input type="text" name="subject" class="form-input" placeholder='"Project Discussion"'
+                                    required>
                             </div>
 
+                            <!-- Message Field -->
                             <div class="form-group">
                                 <label class="form-label">"message":</label>
-                                <textarea name="message" class="form-textarea" placeholder='"Your message here..."' required></textarea>
+                                <textarea name="message" class="form-textarea" placeholder='"Your message here..."'
+                                    required></textarea>
                             </div>
-                                 <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                            <!-- Hidden Bot Check -->
+                            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                            <!-- JSON-style closing bracket -->
                             <div class="json-bracket">}</div>
 
+                            <!-- Submit Button -->
                             <button type="submit" class="submit-btn" id="submitBtn">
                                 <i class="fas fa-paper-plane"></i>
-                                <span id="submitText" type="submit">Send Request</span>
+                                <span id="submitText">Send Request</span>
                             </button>
-                        </form>
 
-                        <div class="response-message" id="responseMessage"></div>
+                        </form>
                     </div>
+
+
+                    <div class="response-message" id="responseMessage"></div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
@@ -579,7 +614,7 @@ to browse a library of movies
             <div class="footer-content">
                 <div class="footer-brand">
                     <div class="footer-logo">
-            
+
                         <span class="logo-text">&lt;sude/&gt;</span>
                     </div>
                     <p class="footer-tagline">Crafting digital experiences with code and creativity</p>
@@ -587,13 +622,13 @@ to browse a library of movies
 
                 <!-- Social Links -->
                 <div class="footer-social">
-                    <a href="https://github.com" class="social-link" target="_blank">
+                    <a href="https://github.com/sudais73" class="social-link" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://linkedin.com" class="social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/sudais-aliyi-9b6b14333" class="social-link" target="_blank">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://twitter.com" class="social-link" target="_blank">
+                    <a href="https://t.me/sudaisaliyi" class="social-link" target="_blank">
                         <i class="fab fa-telegram"></i>
                     </a>
                     <a href="mailto:sudaisaliyi@gmail.com" class="social-link">
@@ -601,36 +636,36 @@ to browse a library of movies
                     </a>
                 </div>
                 <div class="footer-copyright">
-                    
+
                     <p class="copyright-small">© 2025 All rights reserved.</p>
                 </div>
             </div>
 
-             <style>
+            <style>
                 .footer-bottom {
-  padding: 1.5rem 0;
-  text-align: center;
-  background: rgba(17, 24, 39, 0.8);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
+                    padding: 1.5rem 0;
+                    text-align: center;
+                    background: rgba(17, 24, 39, 0.8);
+                    border-top: 1px solid rgba(255, 255, 255, 0.1);
+                }
 
-.footer-code {
-  color: #d1d5db;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-}
+                .footer-code {
+                    color: #d1d5db;
+                    font-family: 'Courier New', monospace;
+                    font-size: 0.9rem;
+                }
 
-.footer-code a {
-  color: #a855f7;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+                .footer-code a {
+                    color: #a855f7;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
 
-.footer-code a:hover {
-  color: #c084fc;
-  text-decoration: underline;
-}
-             </style>
+                .footer-code a:hover {
+                    color: #c084fc;
+                    text-decoration: underline;
+                }
+            </style>
         </div>
     </footer>
 
@@ -641,4 +676,5 @@ to browse a library of movies
 
     <script src="script.js"></script>
 </body>
+
 </html>
